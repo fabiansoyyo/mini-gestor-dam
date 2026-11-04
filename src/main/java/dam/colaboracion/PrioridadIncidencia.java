@@ -14,6 +14,16 @@ public class PrioridadIncidencia {
         
         sc.close();
 
+        if (nivel == 1) {
+            System.out.println("Prioridad asignada: BAJA");
+        } else if (nivel == 2) {
+            System.out.println("Prioridad asignada: MEDIA");
+        } else if (nivel == 3) {
+            System.out.println("Prioridad asignada: ALTA");
+        } else {
+            System.out.println("Nivel no válido");
+        }
+
 		
 	}
 }
