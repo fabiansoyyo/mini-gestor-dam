@@ -1,11 +1,13 @@
 package dam.colaboracion;
 
+import java.util.Scanner;
+
 public class RegistroIncidencia {
 
-	public static void ejecutar() {
-		// TODO Auto-generated method stub
+    public static void ejecutar() {
+        Scanner sc = new Scanner(System.in);
 
-		System.out.println("[Registro pendiente]");
-		
-	 }
+        System.out.print("Título de la incidencia: ");
+        String titulo = sc.nextLine();
+    }
 }
