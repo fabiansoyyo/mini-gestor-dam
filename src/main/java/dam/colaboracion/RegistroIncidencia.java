@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class RegistroIncidencia {
 
     public static void ejecutar() {
-        Scanner sc = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
         System.out.print("Título de la incidencia: ");
-        String titulo = sc.nextLine();
+        String titulo = teclado.nextLine();
+
+        System.out.print("Descripción breve: ");
+        String descripcion = teclado.nextLine();
+
+        System.out.println("Incidencia registrada: " + titulo);
     }
 }
