@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class PrioridadIncidencia {
 
 	public static void ejecutar() {
-		// TODO Auto-generated method stub
 
         Scanner sc = new Scanner(System.in);
 
